@@ -15,7 +15,7 @@ namespace MobilePhones
         private decimal balance;
 
         // Company names and their call and text charges
-        private string[] mobileCompanies = { "O2", "Tesco", "Vodafone", "EE", "Smartie" };
+        private string[] mobileCompanies = { "O2", "Tesco", "Vodafone", "EE", "Smart" };
         private decimal[] callCharges = { 0.55m, 0.45m, 0.55m, 0.57m, 0.32m };
         private decimal[] textCharges = { 0.07m, 0.02m, 0.13m, 0.18m, 0.13m };
 
