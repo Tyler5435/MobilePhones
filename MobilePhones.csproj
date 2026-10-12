@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FF50A09A-20AA-4BD2-917A-2586BD6E39EB}</ProjectGuid>
     <OutputType>Exe</OutputType>
+    <StartupObject>Program</StartupObject>
     <RootNamespace>MobilePhones</RootNamespace>
     <AssemblyName>MobilePhones</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -43,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Mobile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
